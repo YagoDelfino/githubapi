@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #525561;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  height: 90%;
+  background-color: #272a37;
+  border-radius: 2rem;
+}
+
+.container-app .container {
+  padding: 3rem;
+  width: 90%;
+  height: 90%; 
+}
+
+
+.container-app .container main {
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-app .container main input {
+  padding: 20px 10px;
+  border-radius: 2rem;
+  width: 400px;
+  background-color: #191622;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.container-app .container main button {
+  background-color: #191622;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.container-app .container main .content table{
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #191622;
+}
+
+.container-app .container main .content  td, .container-app .container main .content  th {
+  padding: 8px;
+}
+
+.container-app .container main .content tr:hover {background-color: #ddd1;}
+
+.container-app .container main .content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #525561;
+  color: white;
+}
